@@ -48,6 +48,15 @@ header {
   color: white;
 }
 
+/*PAGINA HELP*/
+
+.contenedor-padre {
+  padding-top: 130px;
+  background-color: cadetblue;
+  color: white;
+}
+
+
 .bienvenida {
   width: 100%;
   background-color: grey;
@@ -63,7 +72,12 @@ header {
   flex-direction: column;
   width: 50%;
   gap: 30px;
-  padding-left: 5%;
+  padding-left: 2%;
+  padding-right: 5%;
+}
+
+.texto-bienvenida{
+  font-size: 20px;
 }
 
 .imagen-bienvenida {
@@ -78,6 +92,8 @@ header {
   display: flex;
   height: 25em;
   background-color: cadetblue;
+  padding-left: 0%;
+  padding-right: 0.1%;
 }
 
 .texto-actividades {
@@ -85,6 +101,11 @@ header {
   flex-direction: column;
   width: 60%;
 }
+
+.texto-actividades-1{
+  font-size: 20px;
+}
+
 .texto-actividades h2 {
   display: flex;
   background-color: black;
@@ -106,7 +127,8 @@ header {
 }
 
 .imagen-actividades {
-  width: 40%;
+  width: 50%;
+  height: 100%;
 }
 
 .tienda {
@@ -115,12 +137,15 @@ header {
   display: flex;
   height: 25em;
   background-color: grey; /*rgb(159, 160, 95);*/
+  padding-left: 0%;
+  padding-right: 0.1%;
 }
 
 .texto-tienda {
   display: flex;
   flex-direction: column;
   width: 60%;
+  font-size: 20px;
 }
 
 .texto-tienda h2 {
@@ -149,16 +174,20 @@ header {
   display: flex;
   height: 25em;
   background-color: cadetblue;
+  padding-left: 0%;
+  padding-right: 0.1%;
 }
 
 .imagen-contacto {
-  width: 40%;
+  width: 50%;
+  height: 100%;
 }
 
 .texto-contacto {
   display: flex;
   flex-direction: column;
   width: 60%;
+  font-size: 20px;
 }
 
 .texto-contacto h2 {
@@ -510,7 +539,7 @@ label input:focus {
 
 .google-maps {
     /*position: relative;*/
-    padding-bottom: 75%; 
+    padding-bottom: 150px; 
     display: block;
     margin: auto;
     overflow: hidden;

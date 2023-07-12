@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgba(0, 0, 0, 0.788);
+  background-color: grey;
 }
 
 header {
@@ -59,7 +59,7 @@ header {
 .outdoor,
 .natacion,
 .kids {
-  /*background-color: aqua;*/
+  background-color: cadetblue;
   width: 100%;
   margin: 15px;
   display: flex;
